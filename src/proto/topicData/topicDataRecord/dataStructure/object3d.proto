@@ -1,8 +1,8 @@
 syntax = "proto3";
 package ubii.dataStructure;
 
-import "proto/topicData/topicDataRecord/dataStructure/pose3d.proto";
-import "proto/topicData/topicDataRecord/dataStructure/vector3.proto";
+import "topicData/topicDataRecord/dataStructure/pose3d.proto";
+import "topicData/topicDataRecord/dataStructure/vector3.proto";
 
 message Object3D {
     string id = 1;

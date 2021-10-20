@@ -1,8 +1,8 @@
 syntax = "proto3";
 package ubii.dataStructure;
 
-import "proto/topicData/topicDataRecord/dataStructure/vector3.proto";
-import "proto/topicData/topicDataRecord/dataStructure/quaternion.proto";
+import "topicData/topicDataRecord/dataStructure/vector3.proto";
+import "topicData/topicDataRecord/dataStructure/quaternion.proto";
 
 message Pose3D {
     ubii.dataStructure.Vector3 position = 1;

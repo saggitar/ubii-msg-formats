@@ -1,8 +1,8 @@
 syntax = "proto3";
 package ubii.dataStructure;
 
-import "proto/topicData/topicDataRecord/dataStructure/buttonEventType.proto";
-import "proto/topicData/topicDataRecord/dataStructure/vector2.proto";
+import "topicData/topicDataRecord/dataStructure/buttonEventType.proto";
+import "topicData/topicDataRecord/dataStructure/vector2.proto";
 
 message TouchEvent {
     enum TouchEventType {

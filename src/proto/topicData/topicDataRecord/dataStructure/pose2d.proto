@@ -1,7 +1,7 @@
 syntax = "proto3";
 package ubii.dataStructure;
 
-import "proto/topicData/topicDataRecord/dataStructure/vector2.proto";
+import "topicData/topicDataRecord/dataStructure/vector2.proto";
 
 message Pose2D {
     ubii.dataStructure.Vector2 position = 1;

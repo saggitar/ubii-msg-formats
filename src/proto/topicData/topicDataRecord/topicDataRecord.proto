@@ -1,27 +1,27 @@
 syntax = "proto3";
 package ubii.topicData;
 
-import "proto/topicData/topicDataRecord/timestamp.proto";
-import "proto/topicData/topicDataRecord/dataStructure/lists.proto";
-import "proto/topicData/topicDataRecord/dataStructure/vector2.proto";
-import "proto/topicData/topicDataRecord/dataStructure/vector3.proto";
-import "proto/topicData/topicDataRecord/dataStructure/vector4.proto";
-import "proto/topicData/topicDataRecord/dataStructure/quaternion.proto";
-import "proto/topicData/topicDataRecord/dataStructure/matrix3x2.proto";
-import "proto/topicData/topicDataRecord/dataStructure/matrix4x4.proto";
-import "proto/topicData/topicDataRecord/dataStructure/color.proto";
-import "proto/topicData/topicDataRecord/dataStructure/touchEvent.proto";
-import "proto/topicData/topicDataRecord/dataStructure/keyEvent.proto";
-import "proto/topicData/topicDataRecord/dataStructure/mouseEvent.proto";
-import "proto/topicData/topicDataRecord/dataStructure/myoEvent.proto";
-import "proto/topicData/topicDataRecord/dataStructure/pose2d.proto";
-import "proto/topicData/topicDataRecord/dataStructure/pose3d.proto";
-import "proto/topicData/topicDataRecord/dataStructure/object2d.proto";
-import "proto/topicData/topicDataRecord/dataStructure/object3d.proto";
-import "proto/topicData/topicDataRecord/dataStructure/image.proto";
+import "topicData/topicDataRecord/timestamp.proto";
+import "topicData/topicDataRecord/dataStructure/lists.proto";
+import "topicData/topicDataRecord/dataStructure/vector2.proto";
+import "topicData/topicDataRecord/dataStructure/vector3.proto";
+import "topicData/topicDataRecord/dataStructure/vector4.proto";
+import "topicData/topicDataRecord/dataStructure/quaternion.proto";
+import "topicData/topicDataRecord/dataStructure/matrix3x2.proto";
+import "topicData/topicDataRecord/dataStructure/matrix4x4.proto";
+import "topicData/topicDataRecord/dataStructure/color.proto";
+import "topicData/topicDataRecord/dataStructure/touchEvent.proto";
+import "topicData/topicDataRecord/dataStructure/keyEvent.proto";
+import "topicData/topicDataRecord/dataStructure/mouseEvent.proto";
+import "topicData/topicDataRecord/dataStructure/myoEvent.proto";
+import "topicData/topicDataRecord/dataStructure/pose2d.proto";
+import "topicData/topicDataRecord/dataStructure/pose3d.proto";
+import "topicData/topicDataRecord/dataStructure/object2d.proto";
+import "topicData/topicDataRecord/dataStructure/object3d.proto";
+import "topicData/topicDataRecord/dataStructure/image.proto";
 
-import "proto/sessions/session.proto";
-import "proto/processing/processingModule.proto";
+import "sessions/session.proto";
+import "processing/processingModule.proto";
 
 // continuous index: 38
 message TopicDataRecord {
